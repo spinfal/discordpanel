@@ -55,7 +55,7 @@
 ## Getting Started
 
 This project does not run on any servers and can be self hosted. Simply open 
-```index.html``` to get started or use the control panel by opening ```DiscordPanel.cmd``` and executing "W" for the web panel.
+```index.html``` to get started <s>or use the control panel by opening ```DiscordPanel.cmd``` and executing "W" for the web panel.</s>
 
 <!--
 ### Prerequisites
@@ -115,12 +115,12 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 ## Contact 
 
-<b>D3VSJ</b>
+<b>D3VSJ</b><br>
 Website : [sanjaysunil.me](https://sanjaysunil.me) &nbsp;&middot;&nbsp;
 Email : [D3VSJ@protonmail.com](mailto:D3VSJ@protonmail.com) &nbsp;&middot;&nbsp;
 Discord : [D3VSJ#9496](https://discord.com/users/732336924559278181)
 <br>
-<b>Spinfal</b>
+<b>Spinfal</b><br>
 Website : [spuwun](https://waa.ai/spuwun) &nbsp;&middot;&nbsp;
 Email : [spinfal@atheist.com](mailto:spinfal@atheist.com) &nbsp;&middot;&nbsp;
 Discord : [spin~#2080](https://discord.com/users/291040335264481281)
