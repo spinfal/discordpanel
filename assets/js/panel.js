@@ -498,11 +498,11 @@ function fetchGuilds() {
 function sendMessage() {
   let user;
 
-  if (toSend.html() === "") {
-    tempChange("#send", `[${localeFile.errors.emptyMsg}]`, 1000);
+  if (document.getElementById('toSend').value === "") {
+    tempChange("#send", ``, 1000);
   } else {
-    let formatted = toSend
-      .html()
+    let formatted = document.getElementById('toSend')
+      .value
       .replace(/<b>/g, "**")
       .replace(/<\/b>/g, "**")
       .replace(/<em>/g, "*")
@@ -535,11 +535,9 @@ function sendMessage() {
           );
         });
     }
-    toSend.html("");
+    document.getElementById('toSend').value = "";
   }
 }
-
-document.getElementById("toSend").placeholder = "Type a message."
 
 function selectChannelOnReload(channel) {
   $(`.channels option[value="${channel}"]`).prop("selected", true);

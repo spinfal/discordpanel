@@ -415,8 +415,7 @@
                             <div class="row no-gutters">
                                 <div class="col">
                                     <div>
-                                        <div contenteditable="true" id="toSend" placeholder="Type your message here ..."
-                                            class="form-control form-control-lg bg-light border-light"></div>
+                                        <input type="text" id="toSend" class="form-control form-control-lg bg-light border-light">
                                     </div>
                                 </div>
                                 <div class="col-auto">
@@ -425,14 +424,14 @@
                                             <li class="list-inline-item">
                                                 <button type="button"
                                                     class="btn btn-link text-decoration-none font-size-16 btn-lg waves-effect"
-                                                    data-toggle="tooltip" data-placement="top" title="Emoji">
+                                                    data-toggle="tooltip" data-placement="top" title="Emoji" disabled>
                                                     <i class="ri-emotion-happy-line"></i>
                                                 </button>
                                             </li>
                                             <li class="list-inline-item">
                                                 <button type="button"
                                                     class="btn btn-link text-decoration-none font-size-16 btn-lg waves-effect"
-                                                    data-toggle="tooltip" data-placement="top" title="Attached File">
+                                                    data-toggle="tooltip" data-placement="top" title="Attached File" disabled>
                                                     <i class="ri-attachment-line"></i>
                                                 </button>
                                             </li>
@@ -559,6 +558,9 @@
     <script type="text/javascript" src="./assets/js/main/tempChange.js"></script>
     <!-- Panel -->
     <script type="text/javascript" src="./assets/js/panel.js"></script>
+    <script type="text/javascript">
+      document.getElementById("toSend").placeholder = "Type a message...";
+    </script>
 
 </body>
 
