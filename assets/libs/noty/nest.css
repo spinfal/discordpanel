@@ -1,0 +1,19 @@
+.noty_theme__nest.noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.098039) 5px 4px 10px 0; }
+  .noty_theme__nest.noty_bar .noty_body {
+    padding: 10px;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  .noty_theme__nest.noty_bar .noty_buttons {
+    padding: 10px; }
+
+.noty_layout .noty_theme__nest.noty_bar {
+  z-index: 5; }
+
+.noty_theme__nest.noty_type__alert,
+.noty_theme__nest.noty_type__notification {
+  background-color: #073B4C;

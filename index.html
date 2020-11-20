@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DiscordPanel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DiscordPanel, the best discord panel for developers." />
+    <meta name="author" content="Sanjay Sunil">
+    <meta name="author:username" content="D3VSJ" />
+    <meta property="og:site_name" content="DiscordPanel" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:type" content="website" />
+    <style>
+      #tokenBtn {
+        width: 150px;
+        height: 35px;
+        border-radius: 5px;
+        border-width: 0px;
+      }
+      #tokenInp {
+        width: 380px;
+        outline: none;
+        border-radius: 5px;
+      }
+      #tokenInp:focus {
+        width: 430px;
+        transition: 0.2s;
+      }
+      #tokenInp:not(:focus) {
+        transition: 0.2s;
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+    </style>
+    <meta name="apple-mobile-web-app-title" content="DiscordPanel" />
+    <meta name="application-name" content="DiscordPanel" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap-dark.min.css" id="bootstrap-dark-style" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <h1>DiscordPanel</h1>
+            <form action="/panel.html" method="POST">
+              <input type="password" id="tokenInp" placeholder="Input Bot Token" maxlength="75" title="Input your bot Token" autofocus required><br><br><input type="submit" id="tokenBtn" onclick="getToken()" value="Login" title="Login to Bot">
+            </form>
+            <div class="footer">
+              <sub>Original project by <a href="https://github.com/D3VSJ/BetterDiscordPanel" target="_blank">D3VSJ</a></sub>
+            </div>
+        </div>
+    </div>
+    <script>
+      //function getToken() { tokenVal = document.getElementById('tokenInp').value; sessionStorage.setItem("token", tokenVal); if (sessionStorage.getItem("token")=="") {alert('You cannot leave the field blank!')} else {window.open('/panel.html', '_self')} }
+      function getToken() { tokenVal = document.getElementById('tokenInp').value; sessionStorage.setItem("token", tokenVal); }
+    </script>
+</body>
+
+</html>
