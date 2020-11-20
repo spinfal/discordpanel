@@ -37,7 +37,7 @@
 
 <img src="assets/images/previews/preview.png" alt="Logo" width="100%" height="100%">
 
-<p align="center">BetterDiscordPanel is a new project that allows users to message and manage inside of their discord bots.</p>
+<p align="center">DiscordPanel is a new project that allows users to message and manage inside of their discord bots.</p>
 
 **Current Features:**
 * Messaging Interface with Discord Design
@@ -46,6 +46,8 @@
 * Discord Light and Dark Theme
 
 **Coming Soon:**
+```- Features are Provided by D3VSJ -```
+
 * Bot Profile Editing
 * Electron Desktop Application
 * Website with Documentation
@@ -53,7 +55,7 @@
 ## Getting Started
 
 This project does not run on any servers and can be self hosted. Simply open 
-```index.html``` to get started or use the control panel by opening ```BetterDiscordPanel.cmd``` and executing "W" for the web panel.
+```index.html``` to get started or use the control panel by opening ```DiscordPanel.cmd``` and executing "W" for the web panel.
 
 <!--
 ### Prerequisites
@@ -65,13 +67,13 @@ No prerequisites yet, however the Electron Desktop version will require some soo
 
 1. Clone the repo
 ```sh
-git clone https://github.com/D3VSJ/BetterDiscordPanel
+git clone https://github.com/spinfal/DiscordPanel
 ```
-2. Open ```index.html``` or open ```BetterDiscordPanel.cmd``` to run the program.
+2. Open ```index.html``` or open ```DiscordPanel.cmd``` to run the program.
 
 3. Add your token by selecting the profile image on the bottom left corner and click Login/Logout or enter token when prompted. On mobile, it should be located on the bottom right corner.
 
-4. Start using BetterDiscordPanel!
+4. Start using DiscordPanel!
 
 <!-- USAGE EXAMPLES 
 ## Usage
@@ -113,10 +115,15 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 ## Contact 
 
+<b>D3VSJ</b>
 Website : [sanjaysunil.me](https://sanjaysunil.me) &nbsp;&middot;&nbsp;
 Email : [D3VSJ@protonmail.com](mailto:D3VSJ@protonmail.com) &nbsp;&middot;&nbsp;
-Discord : [D3VSJ#9496](https://discordapp.com/users/732336924559278181)
-
+Discord : [D3VSJ#9496](https://discord.com/users/732336924559278181)
+<br>
+<b>Spinfal</b>
+Website : [spuwun](https://waa.ai/spuwun) &nbsp;&middot;&nbsp;
+Email : [spinfal@atheist.com](mailto:spinfal@atheist.com) &nbsp;&middot;&nbsp;
+Discord : [spin~#2080](https://discord.com/users/291040335264481281)
 </div>
 
 
