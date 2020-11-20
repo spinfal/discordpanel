@@ -45,7 +45,7 @@
 * Bot Statistics 
 * Discord Light and Dark Theme
 
-**Coming Soon:**
+**Coming Soon:**<br>
 ```- Features are Provided by D3VSJ -```
 
 * Bot Profile Editing
