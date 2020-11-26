@@ -118,7 +118,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <b>D3VSJ</b><br>
 Website : [sanjaysunil.me](https://sanjaysunil.me) &nbsp;&middot;&nbsp;
 Email : [D3VSJ@protonmail.com](mailto:D3VSJ@protonmail.com) &nbsp;&middot;&nbsp;
-Discord : [D3VSJ#9496](https://discord.com/users/732336924559278181)
+Discord : [D3VSJ#3158](https://discord.com/users/732336924559278181)
 <br>
 <b>Spinfal</b><br>
 Website : [spuwun](https://waa.ai/spuwun) &nbsp;&middot;&nbsp;
