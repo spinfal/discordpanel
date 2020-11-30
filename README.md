@@ -71,7 +71,7 @@ git clone https://github.com/spinfal/DiscordPanel
 ```
 2. Open ```index.html``` or open ```DiscordPanel.cmd``` to run the program.
 
-3. Add your token by selecting the profile image on the bottom left corner and click Login/Logout or enter token when prompted. On mobile, it should be located on the bottom right corner.
+3. Login to your Discord bot.
 
 4. Start using DiscordPanel!
 

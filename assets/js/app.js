@@ -45,18 +45,12 @@
 const status = $("#status");
 
 $(document).ready(function () {
-//    setTimeout(function () {
-//        $('.preloader').fadeOut(300, function () {});
-//    }, 2000);
-    setTimeout(function () {
-        status.html("Ready!");
-    }, 500);
 
     new Noty({
         type: 'info',
         theme: "nest",
         closeWith: ['button'],
-        text: '<a href="https://github.com/Spinfal/DiscordPanel">Welcome to the DiscordPanel!<iframe src="https://ghbtns.com/github-btn.html?user=spinfal&repo=DiscordPanel&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe></a>',
+        text: '<a href="https://github.com/Spinfal/DiscordPanel" target="_blank">Welcome to the DiscordPanel!<iframe src="https://ghbtns.com/github-btn.html?user=spinfal&repo=DiscordPanel&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe></a>',
         dismissQueue: true,
     }).show()
 });
