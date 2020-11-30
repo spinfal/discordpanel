@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - DiscordPanel</title>
   <link rel="stylesheet" href="./assets/css/login.css">
   <meta name="description" content="DiscordPanel, the best discord panel for developers." />
@@ -17,12 +18,20 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/16x16.png" />
   <meta name="apple-mobile-web-app-title" content="DiscordPanel" />
   <meta name="application-name" content="DiscordPanel" />
+  <style>
+    /* hide TextLogo on mobile */
+    @media (max-width:629px) {
+      img#textLogo {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="container">
     <div id="inviteContainer">
       <div class="logoContainer"><img class="logo" src="./assets/images/betterdiscordpanel.png" draggable="false" />
-        <img class="text" src="assets/images/TextLogo.png" draggable="false" /></div>
+        <img class="text" src="assets/images/TextLogo.png" id="textLogo" draggable="false" /></div>
       <div class="acceptContainer">
         <form>
           <h1>Welcome back!</h1>
