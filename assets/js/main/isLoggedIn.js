@@ -7,17 +7,17 @@
 let token;
 
 if (
-    !localStorage.getItem("token") ||
-    localStorage.getItem("token") === "" ||
-    localStorage.getItem("token") === null
+    !sessionStorage.getItem("token") ||
+    sessionStorage.getItem("token") === "" ||
+    sessionStorage.getItem("token") === null
 ) {
-    localStorage.setItem("isLoggedIn", "0");
+    sessionStorage.setItem("isLoggedIn", "0");
     window.location.replace('/')
 }
 
 status.html("Connecting to Bot Token ...")
 
-token = localStorage.getItem("token")
+token = sessionStorage.getItem("token")
 
 const client = new Discord.Client({
     messageCacheMaxSize: 5,
@@ -31,7 +31,7 @@ client.login(token)
         setTimeout(function () {
             $('.preloader').fadeOut(300, function () {});
         }, 1500);
-        localStorage.setItem("isLoggedIn", "1");
+        sessionStorage.setItem("isLoggedIn", "1");
     })
     .catch(() => {
         status.html("ERROR! Invalid Token!");

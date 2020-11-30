@@ -14,7 +14,7 @@ $(document).ready(function () {
   }).show()
 });
 
-if (localStorage.getItem("isLoggedIn") == "1") {
+if (sessionStorage.getItem("isLoggedIn") == "1") {
   window.location.replace('panel.html')
 }
 else {
@@ -23,9 +23,9 @@ else {
 function login() {
   let token;
   token = document.getElementById("token").value;
-  localStorage.setItem("token", token);
+  sessionStorage.setItem("token", token);
   
-  token = localStorage.getItem("token");
+  token = sessionStorage.getItem("token");
   
   const client = new Discord.Client({
     messageCacheMaxSize: 5,
@@ -35,7 +35,7 @@ function login() {
   client.login(token).then()
     .then(() => {
       console.log("Success!")
-      localStorage.setItem("isLoggedIn", "1");
+      sessionStorage.setItem("isLoggedIn", "1");
       window.location.replace('panel.html')
     })
     .catch(() => {
@@ -50,6 +50,6 @@ function login() {
         force: false, 
         maxVisible: 5, 
       }).show()
-      localStorage.setItem("token", null);
+      sessionStorage.setItem("token", null);
     });
 }

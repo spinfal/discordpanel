@@ -748,7 +748,7 @@ $(document).on("change", ".channels", () => {
 
 refreshToken.click(() => {
   if (window.confirm(localeFile.token.confirmation)) {
-    localStorage.setItem("token", "");
+    sessionStorage.setItem("token", "");
     localStorage.setItem("isLoggedIn", "0");
     location.replace('/')
   }
