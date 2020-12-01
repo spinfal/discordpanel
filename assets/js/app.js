@@ -45,12 +45,11 @@
 const status = $("#status");
 
 $(document).ready(function () {
-
     new Noty({
         type: 'info',
         theme: "nest",
         closeWith: ['button'],
-        text: '<a href="https://github.com/Spinfal/DiscordPanel" target="_blank">Welcome to the DiscordPanel!<iframe src="https://ghbtns.com/github-btn.html?user=spinfal&repo=DiscordPanel&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe></a>',
+        text: '<a href="https://github.com/spinfal/DiscordPanel" target="_blank"><font color="lightblue">Welcome to the DiscordPanel!</font><iframe src="https://ghbtns.com/github-btn.html?user=spinfal&repo=DiscordPanel&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe></a>',
         dismissQueue: true,
     }).show()
 });
