@@ -121,9 +121,9 @@ Email : [D3VSJ@protonmail.com](mailto:D3VSJ@protonmail.com) &nbsp;&middot;&nbsp;
 Discord : [D3VSJ#3158](https://discord.com/users/732336924559278181)
 <br>
 <b>Spinfal</b><br>
-Website : [spuwun](https://waa.ai/spuwun) &nbsp;&middot;&nbsp;
-Email : [spinfal@atheist.com](mailto:spinfal@atheist.com) &nbsp;&middot;&nbsp;
-Discord : [spin~#2080](https://discord.com/users/291040335264481281)
+Website : [spin.tk](https://spin.tk) &nbsp;&middot;&nbsp;
+Email : [spin@seized.email](mailto:spin@seized.email) &nbsp;&middot;&nbsp;
+Discord : [spin~#5150](https://discord.com/users/308440976723148800)
 </div>
 
 
